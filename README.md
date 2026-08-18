@@ -98,7 +98,7 @@ Feature engineering,
 Data preprocessing,
 Model training,
 Model evaluation,
-Model comparison,
+Model comparison.
 The processed CSV datasets are stored in the data folder, while trained models are stored in the models folder.
 
 ## Result
