@@ -52,7 +52,7 @@ These features can help the models identify relationships between a vehicle's ch
 
 ## Preprocessing
 The dataset contains both numerical and categorical features, so different preprocessing techniques are required.
-Numerical features are:imputed when necessary using the median,standardized using StandardScaler,
+Numerical features are:imputed when necessary using the median,standardized using StandardScaler.
 Categorical features such as make, model, fuel type, and transmission are: filled when values are missing, converted into numerical representations using One-Hot Encoding.
 The preprocessing steps are implemented using a scikit-learn ColumnTransformer and Pipeline.
 This ensures that the same preprocessing transformations are applied consistently during training and prediction and helps prevent data leakage.
