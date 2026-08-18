@@ -68,16 +68,16 @@ Each model uses the same training and test split and the same preprocessing pipe
 
 ## Model Evaluation
 The models are evaluated using several regression metrics.
-**MAE — Mean Absolute Error**
+**MAE — Mean Absolute Error**-
 Measures the average absolute difference between the actual and predicted prices.
 A lower MAE means that the model's predictions are closer to the actual prices on average.
-**MSE — Mean Squared Error**
+**MSE — Mean Squared Error**-
 Measures the average squared difference between actual and predicted prices.
 Because the errors are squared, larger prediction errors have a greater impact on this metric.
-**RMSE — Root Mean Squared Error**
+**RMSE — Root Mean Squared Error**-
 RMSE is the square root of MSE and is expressed in the same units as the target variable.
 For this project, RMSE is expressed in USD, making it easier to interpret the size of prediction errors.
-**R² — R-squared**
+**R² — R-squared**-
 R² measures how much of the variation in car prices is explained by the model.
 A higher R² generally indicates better predictive performance.
 The models are compared using all of these metrics rather than relying on a single score.
