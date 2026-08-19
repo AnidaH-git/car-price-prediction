@@ -1,6 +1,5 @@
 models/*.joblib
 models/*.pkl
-models/*.onnx
 
 .ipynb_checkpoints/
 *-checkpoint.ipynb

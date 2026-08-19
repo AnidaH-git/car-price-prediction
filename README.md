@@ -63,7 +63,7 @@ The initial model comparison includes:
 Linear Regression — provides a simple baseline,
 Decision Tree Regressor — captures nonlinear relationships,
 Random Forest Regressor — combines multiple decision trees,
-HistGradientBoosting Regressor — uses gradient boosting to model more complex relationships.
+Hist Gradient Boosting Regressor — uses gradient boosting to model more complex relationships.
 Each model uses the same training and test split and the same preprocessing pipeline to ensure a fair comparison.
 
 ## Model Evaluation
